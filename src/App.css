@@ -1,13 +1,18 @@
+
 .App {
   text-align: center;
+  min-height: 100vh;
+  min-width: 100vw;
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
   pointer-events: none;
 }
-
+.AppHeader{
+  background-color: black;
+  height: 300px;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -19,15 +24,124 @@
   color: white;
 }
 
+.paperUP{
+  animation-name: App-logo-spin;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  transition: all 1s;
+}
+.paperDOWN{
+  animation-name: App-logo-spin2;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  transition: all 1s;
+}
+.parallax_group{
+  position: relative;
+  height: 100vh;
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+}
+#Hlayer2 {
+  transform: translateZ(0);
+}
+#Hlayer1 {
+  transform: translateZ(-1px) scale(2);
+}
 .App-link {
   color: #61dafb;
 }
+#Paper1{
+  top:30px;
+  right:60px ;
+  bottom:auto;
+  left:auto;
+}
+#Paper2{
+  top:auto;
+  left:auto;
+  bottom:60px;
+  right: 90px;
+}
+#Paper3{
+  right: auto;
+  bottom:auto;
+  top:30px;
+  left: 40px;
+}
+#Paper4{
+  top: auto;
+  right: auto;
+  bottom:100px;
+  left: 20px;
+}
+#Paper5{
+  bottom:30px;
+  left: auto;
+  top:auto;
+  right: 60px;
+}
+#Paper6{
+  top:100px;
+  right:90px ;
+  bottom:auto;
+  left:auto;
+}
+#Paper7{
+  top: auto;
+  right: auto;
+  bottom:150px;
+  left: 17  0px;
+}
+#Paper8{
+  top:170px;
+  left:120px ;
+  bottom:auto;
+  right:auto;
+}
+#Paper9{
+  top: auto;
+  right: auto;
+  bottom:200px;
+  left: 100px;
+}
+#Paper10{
+  top:170px;
+  left:120px ;
+  bottom:auto;
+  right:auto;
+}
 
+.tall{
+  height:25vh;
+  position: absolute;
+  width:15vh;
+}
+.med{
+  height:20vh;
+  width:12vh;
+  position: absolute;
+}
+.small{
+  height:15vh;
+  position: absolute;
+  width:9vh;
+}
 @keyframes App-logo-spin {
   from {
-    transform: rotate(0deg);
+    margin-top: 0px;
   }
   to {
-    transform: rotate(360deg);
+    margin-top: 20px;
+  }
+}
+@keyframes App-logo-spin2 {
+  from {
+    margin-bottom: 20px;
+  }
+  to {
+    margin-bottom: 0  px;
   }
 }
