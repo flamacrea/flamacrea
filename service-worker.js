@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/flamacrea/precache-manifest.ad622c47139cab82bb5bf68ea8204d6e.js"
+  "/flamacrea/precache-manifest.b9d3ba7ae2bce837327bcaf988e860f4.js"
 );
 
 workbox.clientsClaim();

@@ -1,17 +1,17 @@
 {
-  "main.css": "/flamacrea/static/css/main.d7ea93e8.chunk.css",
-  "main.js": "/flamacrea/static/js/main.542a0224.chunk.js",
-  "main.js.map": "/flamacrea/static/js/main.542a0224.chunk.js.map",
+  "main.css": "/flamacrea/static/css/main.8635e11f.chunk.css",
+  "main.js": "/flamacrea/static/js/main.6f3bd8ef.chunk.js",
+  "main.js.map": "/flamacrea/static/js/main.6f3bd8ef.chunk.js.map",
   "runtime~main.js": "/flamacrea/static/js/runtime~main.f0416c66.js",
   "runtime~main.js.map": "/flamacrea/static/js/runtime~main.f0416c66.js.map",
   "static/css/2.a22201b4.chunk.css": "/flamacrea/static/css/2.a22201b4.chunk.css",
   "static/js/2.a2dd8104.chunk.js": "/flamacrea/static/js/2.a2dd8104.chunk.js",
   "static/js/2.a2dd8104.chunk.js.map": "/flamacrea/static/js/2.a2dd8104.chunk.js.map",
   "index.html": "/flamacrea/index.html",
-  "precache-manifest.ad622c47139cab82bb5bf68ea8204d6e.js": "/flamacrea/precache-manifest.ad622c47139cab82bb5bf68ea8204d6e.js",
+  "precache-manifest.b9d3ba7ae2bce837327bcaf988e860f4.js": "/flamacrea/precache-manifest.b9d3ba7ae2bce837327bcaf988e860f4.js",
   "service-worker.js": "/flamacrea/service-worker.js",
   "static/css/2.a22201b4.chunk.css.map": "/flamacrea/static/css/2.a22201b4.chunk.css.map",
-  "static/css/main.d7ea93e8.chunk.css.map": "/flamacrea/static/css/main.d7ea93e8.chunk.css.map",
+  "static/css/main.8635e11f.chunk.css.map": "/flamacrea/static/css/main.8635e11f.chunk.css.map",
   "static/media/App.css": "/flamacrea/static/media/logo315.918c2d70.png",
   "static/media/logo.png": "/flamacrea/static/media/logo.80795992.png"
 }
